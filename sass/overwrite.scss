@@ -1,3 +1,234 @@
+/* global color variables */
+$sulitblue: #0048d0;
+$sulitgreen: #7dc523;
+
+/* global font variables */
+$bodyfont: "Helvetica Neue", sans-serif;
+$bodyfontsize: 1em;
+
+/*typographic global sets */
+h1,h2,h3,h4,h5,h6{
+	margin: 0px;
+	color: $sulitgreen;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: 300;
+	font-size: 1.5em;
+	letter-spacing: 1px;
+}
+
 body{
 	background: #fff;
+	font-family: $bodyfont;
+	line-height: 1.3em;
+}
+.top-bar{
+	background: #fff;
+	border-bottom: 1px solid $sulitblue;
+	border-top: 2px solid $sulitblue;
+	height: 44px;
+	position: fixed;
+	width: 100%;
+	z-index: 98;
+	.logo{
+		float: left;
+		background-color: #fff;
+		background-image: url('../images/assets/logo.png'); 
+		background-size: 140px;
+		background-repeat: no-repeat;
+		background-position-x: center;
+		background-position-y: center;
+		text-indent: -999px;
+		overflow: hidden;
+		width: 160px;
+		text-align: center;	
+		display: block;
+		height: 100%;
+		line-height: 100%;
+		margin: 0px;
+		padding: 0px;
+	}
+	
+}
+#searchbar{
+	width: 360px;
+	float: left;
+	height: 100%;
+	padding: 4px 10px 0px;
+	input{
+		border-radius: 5px;
+		border: 1px solid lighten($sulitblue, 41%);
+		background-image: url('../images/assets/search.png');
+		background-size: 28px 28px;
+		background-position: 5px center;
+		background-repeat: no-repeat;
+		padding-left: 36px;
+		display: block;
+		font-size: 1em;
+		height: 32px;
+		float: left;
+		width: 306px;
+		
+	}
+	#location-button{
+		background-image: url('../images/assets/location.png');
+		background-size: 28px 28px;
+		background-position: center center;
+		text-indent: -999px;
+		width: 33px;
+		height: 32px;
+		float: right;
+		
+	}
+}
+#postad-button{
+	background-color: #fc0;
+	background-image: url('../images/assets/post-ad.png');
+	background-size: 28px 28px;
+	background-position-y: center;
+	background-repeat: no-repeat;
+	border-radius: 5px;
+	display: block;
+	float: right;
+	height: 32px;
+	line-height: 32px;
+	margin-top: 4px;
+	color: #333;
+	padding-left: 32px;
+	padding-right: 10px;
+	font-size: 0.9em;
+	margin-right: 10px;
+}
+#build-menu{
+	background: #333 !important;
+	ul,li{
+		display: block;
+		border-bottom: 1px solid #444;
+		margin: 0px;
+	}
+	li{
+		height: 38px;
+		a{
+			display: block;
+			height: 37px;
+			width: 100%;
+			line-height: 37px;
+			padding-left: 10px;
+			color: #fff;
+			font-weight: 300;
+			letter-spacing: 1px;
+		}
+	}
+}
+#build-menu-button{
+	background-image: url('../images/assets/hamburger.png');
+	background-size: 32px 32px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: block;
+	height: 100%;
+	width: 41px;
+	text-indent: -999px;
+	overflow: hidden;
+	float: left;
+}
+#build-menu-page{
+	background: #fff;
+}
+
+.history-item{
+	img{
+		width: 100%;
+		height: 150px;
+		background: #333;
+	}
+}
+
+.ad-title{
+	font-size: 1em;
+	line-height: 1.2em;
+	color: $sulitblue;
+}
+.price{
+	color: #900;
+	font-weight: bold;
+}
+#categorylinks{
+	li{
+		display: block;
+		margin-bottom: 20px;
+		a{
+			width: 100px;
+			height: 100px;
+			margin: 0px auto;
+			background: #333;
+			display: block;
+			border-radius: 50px;
+			text-align: center;
+			line-height: 100px;
+		}
+	}
+}
+.orbit-container{
+	background: #fff;
+	margin-bottom: 40px;
+}
+.splitview{
+position: relative;
+	.left-column{
+		background: #fff;
+		top: 44px;
+		overflow-y: scroll;
+		padding: 0px;
+		border-right: 1px solid #999;
+		a{
+			color: #666;
+		}
+		.list-thumbnail{
+			float: left;
+			margin-right: 10px;
+			background: #333;
+		}
+		.title{
+			font-size: 1em;
+			color: $sulitblue;
+		}
+		ul{
+			margin: 0px;
+			padding: 0px;
+		}
+		.list-details{
+			font-size: 0.8em;
+			li{
+				font-size: 0.9em;
+				border: 0px;
+				line-height: 1em;
+				
+			}
+		}
+		li{
+			display: block;
+			margin: 0px;
+			border-bottom: 1px solid #d2d2d2;
+			padding: 5px 10px;
+		}
+	}
+	.right-column{
+		background: #fff;
+		top: 44px;
+		padding: 0px;
+		overflow: hidden;
+	}
+	.ad-details{
+		overflow-y: scroll;
+	}
+	.ad-screen{
+	
+	}
+	#contact-bar{
+		height: 48px;
+		background: #333;
+	}
+}
+.clearfix{
+	clear: both;
 }
