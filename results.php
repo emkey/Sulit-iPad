@@ -156,7 +156,7 @@
 			
 						</li>
 						<li>
-						<img src="images/product-photos/001/002.jpg" />
+						<img src="images/product-photos/sass/overwrite.scss001/002.jpg" />
 					
 						</li>
 						<li>
@@ -165,7 +165,22 @@
 						</li>
 						</ul>
 					</div>
-					Hello A
+					<div class="ad-info">
+						<ul class="info-tabs">
+							<li class="">
+								<a href="#post001-info" class="tab-link active">Description</a>
+							</li>
+							<li class="">
+								<a href="#post001-description" class="tab-link">Description</a>
+							</li>
+							<li class="#post001-contact">
+								<a href="" class="tab-link">Description</a>
+							</li>
+						</ul>
+						<div class="adinfo-window">
+
+						</div>
+					</div>
 				</div>
 				<div class="contact-bar">
 					contact

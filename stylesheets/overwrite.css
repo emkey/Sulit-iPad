@@ -28,7 +28,7 @@ body {
   width: 100%;
   z-index: 98;
 }
-/* line 32, ../sass/overwrite.scss */
+/* line 33, ../sass/overwrite.scss */
 .top-bar .logo {
   float: left;
   background-color: #fff;
@@ -48,14 +48,14 @@ body {
   padding: 0px;
 }
 
-/* line 52, ../sass/overwrite.scss */
+/* line 53, ../sass/overwrite.scss */
 #searchbar {
   width: 360px;
   float: left;
   height: 100%;
   padding: 4px 10px 0px;
 }
-/* line 57, ../sass/overwrite.scss */
+/* line 58, ../sass/overwrite.scss */
 #searchbar input {
   border-radius: 5px;
   border: 1px solid #a2c2ff;
@@ -70,7 +70,13 @@ body {
   float: left;
   width: 306px;
 }
-/* line 72, ../sass/overwrite.scss */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* line 58, ../sass/overwrite.scss */
+  #searchbar input {
+    margin-top: -8px !important;
+  }
+}
+/* line 79, ../sass/overwrite.scss */
 #searchbar #location-button {
   background-image: url("../images/assets/location.png");
   background-size: 28px 28px;
@@ -81,7 +87,7 @@ body {
   float: right;
 }
 
-/* line 83, ../sass/overwrite.scss */
+/* line 90, ../sass/overwrite.scss */
 #postad-button {
   background-color: #fc0;
   background-image: url("../images/assets/post-ad.png");
@@ -101,21 +107,21 @@ body {
   margin-right: 10px;
 }
 
-/* line 101, ../sass/overwrite.scss */
+/* line 108, ../sass/overwrite.scss */
 #build-menu {
   background: #333 !important;
 }
-/* line 103, ../sass/overwrite.scss */
+/* line 110, ../sass/overwrite.scss */
 #build-menu ul, #build-menu li {
   display: block;
   border-bottom: 1px solid #444;
   margin: 0px;
 }
-/* line 108, ../sass/overwrite.scss */
+/* line 115, ../sass/overwrite.scss */
 #build-menu li {
   height: 38px;
 }
-/* line 110, ../sass/overwrite.scss */
+/* line 117, ../sass/overwrite.scss */
 #build-menu li a {
   display: block;
   height: 37px;
@@ -127,7 +133,7 @@ body {
   letter-spacing: 1px;
 }
 
-/* line 122, ../sass/overwrite.scss */
+/* line 129, ../sass/overwrite.scss */
 #build-menu-button {
   background-image: url("../images/assets/hamburger.png");
   background-size: 32px 32px;
@@ -141,37 +147,37 @@ body {
   float: left;
 }
 
-/* line 134, ../sass/overwrite.scss */
+/* line 141, ../sass/overwrite.scss */
 #build-menu-page {
   background: #fff;
 }
 
-/* line 139, ../sass/overwrite.scss */
+/* line 146, ../sass/overwrite.scss */
 .history-item img {
   width: 100%;
   height: 150px;
   background: #333;
 }
 
-/* line 146, ../sass/overwrite.scss */
+/* line 153, ../sass/overwrite.scss */
 .ad-title {
   font-size: 1em;
   line-height: 1.2em;
   color: #0048d0;
 }
 
-/* line 151, ../sass/overwrite.scss */
+/* line 158, ../sass/overwrite.scss */
 .price {
   color: #900;
   font-weight: bold;
 }
 
-/* line 156, ../sass/overwrite.scss */
+/* line 163, ../sass/overwrite.scss */
 #categorylinks li {
   display: block;
   margin-bottom: 20px;
 }
-/* line 159, ../sass/overwrite.scss */
+/* line 166, ../sass/overwrite.scss */
 #categorylinks li a {
   width: 100px;
   height: 100px;
@@ -183,17 +189,17 @@ body {
   line-height: 100px;
 }
 
-/* line 171, ../sass/overwrite.scss */
+/* line 178, ../sass/overwrite.scss */
 .orbit-container {
   background: #fff;
   margin-bottom: 40px;
 }
 
-/* line 175, ../sass/overwrite.scss */
+/* line 182, ../sass/overwrite.scss */
 .splitview {
   position: relative;
 }
-/* line 177, ../sass/overwrite.scss */
+/* line 184, ../sass/overwrite.scss */
 .splitview .left-column {
   background: #fff;
   top: 44px;
@@ -201,95 +207,136 @@ body {
   padding: 0px;
   border-right: 1px solid #999;
 }
-/* line 183, ../sass/overwrite.scss */
+/* line 190, ../sass/overwrite.scss */
 .splitview .left-column a {
   color: #666;
 }
-/* line 186, ../sass/overwrite.scss */
+/* line 193, ../sass/overwrite.scss */
 .splitview .left-column .list-thumbnail {
   float: left;
   margin-right: 10px;
   background: #333;
 }
-/* line 191, ../sass/overwrite.scss */
+/* line 198, ../sass/overwrite.scss */
 .splitview .left-column .title {
   font-size: 1em;
   color: #0048d0;
 }
-/* line 195, ../sass/overwrite.scss */
+/* line 202, ../sass/overwrite.scss */
 .splitview .left-column ul {
   margin: 0px;
   padding: 0px;
 }
-/* line 199, ../sass/overwrite.scss */
+/* line 206, ../sass/overwrite.scss */
 .splitview .left-column .list-details {
   font-size: 0.8em;
 }
-/* line 201, ../sass/overwrite.scss */
+/* line 208, ../sass/overwrite.scss */
 .splitview .left-column .list-details li {
   font-size: 0.9em;
   border: 0px;
   line-height: 1em;
 }
-/* line 208, ../sass/overwrite.scss */
+/* line 215, ../sass/overwrite.scss */
 .splitview .left-column li {
   display: block;
   margin: 0px;
   border-bottom: 1px solid #d2d2d2;
   padding: 5px 10px;
 }
-/* line 215, ../sass/overwrite.scss */
+/* line 222, ../sass/overwrite.scss */
 .splitview .right-column {
   background: #fff;
   top: 44px;
   padding: 0px;
   overflow: hidden;
 }
-/* line 221, ../sass/overwrite.scss */
+/* line 228, ../sass/overwrite.scss */
 .splitview .image-gallery {
   background: #d2d2d2;
 }
-/* line 224, ../sass/overwrite.scss */
-.splitview .ad-details {
-  background: #666;
+/* line 234, ../sass/overwrite.scss */
+.splitview .ad-details .ad-info .info-tabs {
+  display: block;
+  list-style-type: none;
+  margin: 0px 1em 0px;
+  padding: 4px 0px 4px 0px;
+  text-align: center;
+  height: 40px;
 }
-/* line 227, ../sass/overwrite.scss */
+/* line 241, ../sass/overwrite.scss */
+.splitview .ad-details .ad-info .info-tabs li {
+  float: left;
+  display: block;
+  padding: 0px;
+  border: 1px solid #0048d0;
+  overflow: hidden;
+}
+/* line 247, ../sass/overwrite.scss */
+.splitview .ad-details .ad-info .info-tabs li:first-child {
+  border-right: 0px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+/* line 252, ../sass/overwrite.scss */
+.splitview .ad-details .ad-info .info-tabs li:last-child {
+  border-left: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+/* line 258, ../sass/overwrite.scss */
+.splitview .ad-details .ad-info .info-tabs a {
+  display: block;
+  width: 100%;
+  height: 32px;
+  line-height: 32px;
+  font-weight: 300;
+  color: #0048d0;
+}
+/* line 266, ../sass/overwrite.scss */
+.splitview .ad-details .ad-info .info-tabs .active {
+  background: #0048d0;
+  color: #fff;
+}
+/* line 271, ../sass/overwrite.scss */
+.splitview .ad-details .ad-info .adinfo-window {
+  background: #fff;
+  overflow: hidden;
+  margin: 0px 1em;
+}
+/* line 275, ../sass/overwrite.scss */
+.splitview .ad-details .ad-info .adinfo-window .presentation-window {
+  overflow-y: scroll;
+}
+/* line 281, ../sass/overwrite.scss */
 .splitview .ad-details .orbit-container {
   height: 300px;
   margin-bottom: 0px;
 }
-/* line 230, ../sass/overwrite.scss */
+/* line 284, ../sass/overwrite.scss */
 .splitview .ad-details .orbit-container .orbit-slide-number {
   top: 260px;
   left: 210px;
 }
-/* line 234, ../sass/overwrite.scss */
+/* line 288, ../sass/overwrite.scss */
 .splitview .ad-details .orbit-container .orbit-slides-container {
   padding-bottom: 0px !important;
 }
-/* line 236, ../sass/overwrite.scss */
+/* line 290, ../sass/overwrite.scss */
 .splitview .ad-details .orbit-container .orbit-slides-container li {
-  height: 200px;
+  height: 260px;
 }
-/* line 237, ../sass/overwrite.scss */
+/* line 292, ../sass/overwrite.scss */
 .splitview .ad-details .orbit-container .orbit-slides-container li img {
   margin: 0px auto;
 }
-/* line 241, ../sass/overwrite.scss */
-.splitview .ad-details .orbit-container .orbit-slides-container li:nth-child(2) {
-  background: #ffc;
-}
-/* line 244, ../sass/overwrite.scss */
-.splitview .ad-details .orbit-container .orbit-slides-container li:nth-child(3) {
-  background: #d2d2d2;
-}
-/* line 254, ../sass/overwrite.scss */
+/* line 302, ../sass/overwrite.scss */
 .splitview .contact-bar {
   height: 48px;
   background: #333;
 }
 
-/* line 261, ../sass/overwrite.scss */
+/* line 309, ../sass/overwrite.scss */
 .clearfix {
   clear: both;
 }

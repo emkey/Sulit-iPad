@@ -69,19 +69,32 @@
 	  	var contentheight = windowheight - 44; 
 	  	var rightcolumnwidth = $('.right-column').width();
 	  	var adscreenheight = $(window).height() - 92;
+	  	var adinfoheight = adscreenheight - 340;
+	  	var tabrowwidth = $('.info-tabs').width();
+	  	var tabwidth = tabrowwidth/3;
+	  	
 //	  	alert('content height' + contentheight);
 //	  	alert('adscreen height' + adscreenheight);
 	  	$('.left-column').css("height", contentheight);
 	  	$('.right-column').css("height", contentheight);
 	  	$('.ad-details').css("height", adscreenheight);
+	  	$('.adinfo-window').css("height", adinfoheight);
+	  	$('.info-tabs li').css("width", tabwidth);
+	  	$('.presentation-window').css("height", adinfoheight);
 	  		$(window).resize(function(){
 	  			var adscreenheight = $(window).height() - 92;
 	  			var rightcolumnwidth = $('.right-column').width();
 		  		var windowheight = $(window).height();
 		  		var contentheight = windowheight - 44;
+		  		var adinfoheight = adscreenheight - 340;
+		  		var tabrowwidth = $('.info-tabs').width();
+		  		var tabwidth = tabrowwidth/3;
+		  		$('.info-tabs li').css("width", tabwidth);
 		  		$('.left-column').css("height", contentheight);
 		  		$('.right-column').css("height", contentheight);
 		  		$('.ad-details').css("height", adscreenheight);
+		  		$('.adinfo-window').css("height", adinfoheight);
+		  		$('.presentation-window').css("height", adinfoheight);
 	  		});
   	});
   </script>
