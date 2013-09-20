@@ -23,7 +23,7 @@ body{
 }
 .top-bar{
 	background: #fff;
-	border-bottom: 1px solid $sulitblue;
+	border-bottom: 1px solid #d2d2d2;
 	border-top: 2px solid $sulitblue;
 	height: 44px;
 	position: fixed;
@@ -218,16 +218,45 @@ position: relative;
 		padding: 0px;
 		overflow: hidden;
 	}
+	.image-gallery{
+		background: #d2d2d2;
+	}
 	.ad-details{
-		overflow-y: scroll;
+		
+		background: #666;
+		.orbit-container{
+			height: 300px;
+			margin-bottom: 0px;
+			.orbit-slide-number{
+				top: 260px;
+				left: 210px;
+			}
+			.orbit-slides-container{
+			padding-bottom: 0px !important;
+				li{
+					img{
+						margin: 0px auto;
+					}
+					height: 200px;
+					&:nth-child(2){
+						background: #ffc;
+					}
+					&:nth-child(3){
+						background: #d2d2d2;
+					}
+				}
+			}
+		}
 	}
 	.ad-screen{
 	
 	}
-	#contact-bar{
+	.contact-bar{
 		height: 48px;
 		background: #333;
+		
 	}
+	
 }
 .clearfix{
 	clear: both;

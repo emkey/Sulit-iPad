@@ -114,7 +114,34 @@
 						<div class="clearfix"></div>
 					</a>
 				</li>
-				
+				<li class="result-item">
+					<a href="#">
+						<img src="#" width="100" height="100" class="list-thumbnail">
+						<div class="list-details">
+							<h4 class="title">Lorem ipsum dolor sit amet</h4>
+							<ul>
+								<li><i class="icon-certificate"></i> 2nd Hand</li>
+								<li><i class="icon-time"></i> Posted 1 day ago</li>
+								<li><i class="icon-map-marker"></i> Quezon City, Metro Manila</li>
+							</ul>
+						</div>
+						<div class="clearfix"></div>
+					</a>
+				</li>
+				<li class="result-item">
+					<a href="#">
+						<img src="#" width="100" height="100" class="list-thumbnail">
+						<div class="list-details">
+							<h4 class="title">Lorem ipsum dolor sit amet</h4>
+							<ul>
+								<li><i class="icon-certificate"></i> 2nd Hand</li>
+								<li><i class="icon-time"></i> Posted 1 day ago</li>
+								<li><i class="icon-map-marker"></i> Quezon City, Metro Manila</li>
+							</ul>
+						</div>
+						<div class="clearfix"></div>
+					</a>
+				</li>
 			</ul>
 			
 		</div>
@@ -122,9 +149,25 @@
 			<!-- adscreen -->
 			<div id="001" class="ad-screen">
 				<div class="ad-details">
+					<div class="image-gallery">
+						<ul data-orbit>
+						<li>
+						<img src="images/product-photos/001/001.jpg" />
+			
+						</li>
+						<li>
+						<img src="images/product-photos/001/002.jpg" />
+					
+						</li>
+						<li>
+						<img src="images/product-photos/001/003.jpg" />
+						
+						</li>
+						</ul>
+					</div>
 					Hello A
 				</div>
-				<div id="contact-bar">
+				<div class="contact-bar">
 					contact
 				</div>
 			</div>
@@ -134,7 +177,7 @@
 				<div class="ad-details">
 					Hello B
 				</div>
-				<div id="contact-bar">
+				<div class="contact-bar">
 					contact
 				</div>
 			</div>

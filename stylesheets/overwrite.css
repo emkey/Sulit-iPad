@@ -21,7 +21,7 @@ body {
 /* line 24, ../sass/overwrite.scss */
 .top-bar {
   background: #fff;
-  border-bottom: 1px solid #0048d0;
+  border-bottom: 1px solid #d2d2d2;
   border-top: 2px solid #0048d0;
   height: 44px;
   position: fixed;
@@ -246,16 +246,50 @@ body {
   overflow: hidden;
 }
 /* line 221, ../sass/overwrite.scss */
+.splitview .image-gallery {
+  background: #d2d2d2;
+}
+/* line 224, ../sass/overwrite.scss */
 .splitview .ad-details {
-  overflow-y: scroll;
+  background: #666;
 }
 /* line 227, ../sass/overwrite.scss */
-.splitview #contact-bar {
+.splitview .ad-details .orbit-container {
+  height: 300px;
+  margin-bottom: 0px;
+}
+/* line 230, ../sass/overwrite.scss */
+.splitview .ad-details .orbit-container .orbit-slide-number {
+  top: 260px;
+  left: 210px;
+}
+/* line 234, ../sass/overwrite.scss */
+.splitview .ad-details .orbit-container .orbit-slides-container {
+  padding-bottom: 0px !important;
+}
+/* line 236, ../sass/overwrite.scss */
+.splitview .ad-details .orbit-container .orbit-slides-container li {
+  height: 200px;
+}
+/* line 237, ../sass/overwrite.scss */
+.splitview .ad-details .orbit-container .orbit-slides-container li img {
+  margin: 0px auto;
+}
+/* line 241, ../sass/overwrite.scss */
+.splitview .ad-details .orbit-container .orbit-slides-container li:nth-child(2) {
+  background: #ffc;
+}
+/* line 244, ../sass/overwrite.scss */
+.splitview .ad-details .orbit-container .orbit-slides-container li:nth-child(3) {
+  background: #d2d2d2;
+}
+/* line 254, ../sass/overwrite.scss */
+.splitview .contact-bar {
   height: 48px;
   background: #333;
 }
 
-/* line 232, ../sass/overwrite.scss */
+/* line 261, ../sass/overwrite.scss */
 .clearfix {
   clear: both;
 }
